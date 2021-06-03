@@ -1,0 +1,24 @@
+:root{
+    --darkBlue : #282733 ;
+    --purple : #975dfd;
+    --white : white ;
+    --LightBorder : rgba(255, 255, 255, 0.2);
+    --navSubMenu : #252537;
+    --red : #ea3d56;
+    --sectionBg : #f6f6f6 ;
+    --lightBlue : #6c7293;
+    --lightBlue2 : #48465b; 
+    --lightblue3 : #4fc1e9;
+    --lightPink : #f5cbd3;
+    --yellow : #f1c40f;
+    --green: #0abb87;
+    --purple: #572b40 ;
+  
+    --open-sans :'Open Sans', sans-serif;
+}
+.app{
+    background-color: var(--sectionBg);
+}
+*{
+    font-family: 'Roboto', sans-serif;
+}

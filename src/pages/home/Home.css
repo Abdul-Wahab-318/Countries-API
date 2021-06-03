@@ -1,0 +1,9 @@
+.home-parent{
+    background-color: var(--sectionBg);
+    padding: 15px 15px;
+}
+.countries-cards{
+    display: grid;
+    gap: 60px;
+    grid-template-columns: repeat(4,1fr);
+}

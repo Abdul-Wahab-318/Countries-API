@@ -1,0 +1,96 @@
+.country-card{
+    box-shadow: 0px 0px 30px 0px rgb(52 50 71 / 8%);
+    border-radius: 4px;
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+}
+
+.card-img {
+    position: relative;
+    border-radius: 4px 4px 0 0;
+    width: 100%;
+    height: 270px;
+    overflow: hidden;
+    background-color: white;
+}
+.card-img img{
+    
+}
+.card-img:hover .population, .card-img:hover .cioc{
+    opacity: 1;
+}
+.population{
+    transition: all 300ms ease;
+    position: absolute;
+    top: 8px;
+    right: 8px;
+    color: var(--darkBlue);
+    font-size: 12px;
+    font-weight: 500;
+    padding: 6px 6px;
+    border-radius: 3px;
+    opacity: 0.7;
+    background-color: var(--sectionBg);
+}
+.cioc{
+    transition: all 300ms ease;
+    position: absolute;
+    top: 8px;
+    left: 8px;
+    color: var(--darkBlue);
+    font-size: 12px;
+    font-weight: 500;
+    padding: 6px 6px;
+    border-radius: 3px;
+    opacity: 0.7;
+    background-color: var(--sectionBg);
+}
+.card-caption{
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+}
+.card-caption h5{
+    color: var(--darkBlue);
+    margin:  0;
+}
+
+.card-caption-details{
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    color: var(--lightBlue);
+
+}
+.card-caption-details span{
+    padding: 5px 10px;
+}
+.card-tab-parent{
+    padding: 0px 20px 20px 20px;
+}
+.card-tab-parent .nav{
+    justify-content: center;
+}
+
+
+.tab-content {
+    min-height: 24px;
+}
+.tab-content>.active {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.tab-content .tab-pane span{
+    padding: 0 3px;
+}
+.tab-content .language-tab{
+    justify-content: space-evenly ;
+}
+.tab-content .language-tab span{
+    padding: 0 4px;
+}
